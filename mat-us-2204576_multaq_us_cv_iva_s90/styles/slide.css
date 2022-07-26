@@ -1,0 +1,21 @@
+
+#slide-09-00 #content .slide_09_image {
+   top: 0;
+    left: 0;
+    width: 1366px;
+    height: 1024px;
+    position: absolute;
+    background: url('../images/slide_09_image.png') no-repeat 0 0;
+    background-size: contain;
+}
+
+.title{	
+ top: 25px;
+ left: 157px;
+position:absolute;
+width:522px;
+height:20px;
+
+}
+
+
