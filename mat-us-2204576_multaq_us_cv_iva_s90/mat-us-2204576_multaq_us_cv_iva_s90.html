@@ -164,6 +164,15 @@
 	<script type="text/javascript" src="./scripts/slide.js"></script>
 	<script type="text/javascript" src="./shared/scripts/tracking.js"></script>
 	<script type="text/javascript">
+	
+	  window.onorientationchange = function() { 
+        var orientation = window.orientation; 
+            switch(orientation) { 
+                case 0:
+                case 90:
+                case -90: window.location.reload(); 
+                break; } 
+    };
 	// <![CDATA[
 	(function($) {
 		$(function() {});
